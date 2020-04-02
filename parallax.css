@@ -1,0 +1,115 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.parallax-image{
+    background-image: url(images/Sky.png);
+    text-align: center;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size:100px;
+    padding: 200px;
+    font-family: 'Mr Dafoe', cursive;
+    color: #ffffff;
+    -webkit-text-fill-color: rgba(255, 255, 255, 1);
+    text-shadow: -3px -3px 12px #313a49;
+    -webkit-transform: skew(-5deg, -5deg);
+    font-weight: normal;
+}
+
+.text1{
+    font-size: 40px;
+    color: white;
+    margin: 0 0 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+
+.text2{
+    width: 70%;
+    margin-left: 15%;
+    padding: 30px 0 80px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #f2f2f2;
+    letter-spacing: 0.1em;
+    line-height: 1.8;
+}
+
+.cycle{
+    background-image: url(images/Cycle.png);
+    text-align: center;
+    padding: 50px;
+    margin: 10px;;
+    border:20px;
+    min-height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    font-size:50px;
+    font-family: 'Mr Dafoe', cursive;
+    color: #ffffff;
+    -webkit-text-fill-color: rgba(255, 255, 255, 1);
+    text-shadow: -3px -3px 12px #313a49;
+    -webkit-transform: skew(-5deg, -5deg);
+    font-weight: normal;
+}
+.text3{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    text-align: left;
+}
+
+.car{
+    background-image: url(images/Lambo.jpg);
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    border: 20px;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-size:50px;
+    font-family: 'Mr Dafoe', cursive;
+    color: #ffffff;
+    -webkit-text-fill-color: rgba(255, 255, 255, 1);
+    text-shadow: -3px -3px 12px #313a49;
+    -webkit-transform: skew(-5deg, -5deg);
+    font-weight: normal;
+}
+
+.content1{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    text-align:left;
+}
+
+
+@media all(max-device-width:400px){
+    background-color:blue;
+    body{
+        width:60%;
+        height:100% ;
+    }
+    .parallax-image{
+        background-attachment: scroll;
+    }
+}
