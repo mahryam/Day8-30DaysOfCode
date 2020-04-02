@@ -5,7 +5,7 @@ html,body{
 }
 
 .parallax-image{
-    background-image: url(images/Sky.png);
+    background-image: url(Sky.png);
     text-align: center;
     height: 500px;
     background-attachment: fixed;
@@ -16,7 +16,6 @@ html,body{
 
 h1{
     font-size:100px;
-    padding: 200px;
     font-family: 'Mr Dafoe', cursive;
     color: #ffffff;
     -webkit-text-fill-color: rgba(255, 255, 255, 1);
@@ -44,7 +43,7 @@ h1{
 }
 
 .cycle{
-    background-image: url(images/Cycle.png);
+    background-image: url(Cycle.png);
     text-align: center;
     padding: 50px;
     margin: 10px;;
@@ -73,7 +72,7 @@ h2{
 }
 
 .car{
-    background-image: url(images/Lambo.jpg);
+    background-image: url(Lambo.jpg);
     text-align: center;
     padding: 50px;
     margin: 10px;
