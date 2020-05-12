@@ -1,2 +1,2 @@
 # Parallax-page
-https://mahryam.github.io/Parallax-page/Parallax%20Page.html
+https://mahryam.github.io/Day8-30DaysOfCode/Parallax%20Page.html
